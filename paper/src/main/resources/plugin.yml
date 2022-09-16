@@ -1,9 +1,10 @@
-name: ${name}
+name: ${pluginName}
 version: ${version}
 main: me.josvth.randomspawn.RandomSpawn
 author: Josvth
 softdepend: [WorldBorder, Bastion]
-api-version: 1.17
+description: ${description}
+api-version: ${api_version}
 commands:
   randomspawn:
     description: The main command.
